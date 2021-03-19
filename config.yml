@@ -1,0 +1,19 @@
+title: Geometri Analitik
+description: >-
+  Ruang lingkup materi yang di bahas pada mata kuliah ini adalah konsep dasar,
+  garis lurus dan lingkaran, irisan kerucut, koordinat polar, serta ruang
+  koordinat dan permukaan
+template:
+  repo: geometri-analitik-template
+  name: geometri-analitik
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
